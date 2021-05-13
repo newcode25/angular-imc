@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CalcIMCComponent } from './calc-imc/calc-imc.component';
+import { TabelaImcComponent } from './tabela-imc/tabela-imc.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalcIMCComponent,
+    TabelaImcComponent
   ],
   imports: [
     BrowserModule,
